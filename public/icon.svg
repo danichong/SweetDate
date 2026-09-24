@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="128" fill="#080d1a"/>
+  <!-- Decorative soft glow in background -->
+  <circle cx="256" cy="256" r="180" fill="#a2dbfc" opacity="0.08"/>
+  <circle cx="256" cy="256" r="140" fill="#b892ff" opacity="0.08"/>
+  
+  <!-- Sleep Zzz floating -->
+  <g fill="none" stroke="#b892ff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 340 130 L 370 130 L 340 165 L 370 165" />
+    <path d="M 380 90 L 420 90 L 380 135 L 420 135" stroke-width="14" />
+  </g>
+  <path d="M 256 120 C 256 105 240 100 230 110 C 220 100 205 105 205 120 C 205 140 230 160 230 160 C 230 160 256 140 256 120 Z" fill="#f472b6" opacity="0.9"/>
+
+  <!-- Shadow under chicks -->
+  <ellipse cx="256" cy="380" rx="190" ry="25" fill="#030712" opacity="0.5" />
+
+  <!-- Chick 1 (Left) -->
+  <g>
+    <!-- Tuft -->
+    <path d="M 170 190 C 160 150 190 150 190 190 C 200 160 230 170 210 200" fill="none" stroke="#eab308" stroke-width="14" stroke-linecap="round"/>
+    <!-- Body -->
+    <ellipse cx="180" cy="285" rx="100" ry="92" fill="#FDE047"/>
+    <!-- Wing -->
+    <path d="M 95 285 C 85 315 105 350 150 340" fill="#FACC15" stroke="#CA8A04" stroke-width="10" stroke-linecap="round"/>
+    <!-- Sleeping Eyes -->
+    <path d="M 125 270 Q 145 295 165 270" fill="none" stroke="#334155" stroke-width="14" stroke-linecap="round"/>
+    <path d="M 180 270 Q 200 295 220 270" fill="none" stroke="#334155" stroke-width="14" stroke-linecap="round"/>
+    <!-- Cheeks -->
+    <ellipse cx="115" cy="290" rx="16" ry="12" fill="#fb7185" opacity="0.7"/>
+    <ellipse cx="230" cy="290" rx="16" ry="12" fill="#fb7185" opacity="0.7"/>
+    <!-- Beak -->
+    <polygon points="160,280 186,280 173,306" fill="#FB923C" stroke="#EA580C" stroke-width="5" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Chick 2 (Right, cuddled) -->
+  <g>
+    <!-- Tuft -->
+    <path d="M 330 200 C 330 160 360 170 350 210 C 360 180 390 190 370 220" fill="none" stroke="#eab308" stroke-width="14" stroke-linecap="round"/>
+    <!-- Body -->
+    <ellipse cx="320" cy="295" rx="95" ry="88" fill="#FEF08A"/>
+    <!-- Wing -->
+    <path d="M 395 295 C 405 325 385 360 340 350" fill="#FDE047" stroke="#CA8A04" stroke-width="10" stroke-linecap="round"/>
+    <!-- Sleeping Eyes -->
+    <path d="M 275 280 Q 295 305 315 280" fill="none" stroke="#334155" stroke-width="14" stroke-linecap="round"/>
+    <path d="M 330 280 Q 350 305 370 280" fill="none" stroke="#334155" stroke-width="14" stroke-linecap="round"/>
+    <!-- Cheeks -->
+    <ellipse cx="265" cy="300" rx="15" ry="11" fill="#fb7185" opacity="0.7"/>
+    <ellipse cx="380" cy="300" rx="15" ry="11" fill="#fb7185" opacity="0.7"/>
+    <!-- Beak -->
+    <polygon points="310,290 336,290 323,316" fill="#FB923C" stroke="#EA580C" stroke-width="5" stroke-linejoin="round"/>
+  </g>
+</svg>

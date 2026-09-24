@@ -1,0 +1,6 @@
+{
+  "name": "sweet date",
+  "description": "Planificador y gestor de citas románticas para parejas en tonos celeste y morado, con métricas de presupuesto, recuerdos y ruleta de planes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
